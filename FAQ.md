@@ -93,4 +93,4 @@ CC0 1.0 (public domain). You may use, adapt, and adopt the OCPL text for your ow
 
 **How do I report a compliance violation?**
 
-File an issue at https://github.com/openko-network/ocpl/issues. For urgent or sensitive matters (active user lock-in, patent threats), contact the OpenKO governance council at the address in the OpenKO repository.
+File an issue at https://github.com/openko-network/ocpl/issues. For urgent or sensitive matters (active user lock-in, patent threats), email [info@openko.network](mailto:info@openko.network) directly.
