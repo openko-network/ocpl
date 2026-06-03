@@ -1,5 +1,7 @@
 # OpenKO Cooperative Protocol License (OCPL)
 
+**Canonical:** [openko.network/ocpl](https://openko.network/ocpl)
+
 > Open protocols. Identity sovereignty. No lock-in.
 
 OCPL is a software license for projects that implement open coordination protocols — networks where participants cooperate around missions, share infrastructure, and govern themselves without central ownership. It is designed to protect three things that permissive licenses (MIT, Apache) do not protect: protocol openness, user identity sovereignty, and resistance to platform capture.
@@ -19,7 +21,7 @@ LICENSE   ← copy from this repo (OCPL v1.1)
 In your `README.md`:
 
 ```
-Licensed under [OCPL v1.1](https://github.com/nixpt/ocpl)
+Licensed under [OCPL v1.1](https://openko.network/ocpl)
 ```
 
 In `Cargo.toml` / `pyproject.toml` / `package.json`:
