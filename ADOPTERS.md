@@ -8,7 +8,7 @@ Projects using the OpenKO Cooperative Protocol License.
 
 | Project | License | Description |
 |---|---|---|
-| [OpenKO](https://github.com/nixpt/openko) | OCPL-1.1 | Decentralized human-AI cooperative coordination network |
+| [OpenKO](https://github.com/openko-network/openko) | OCPL-1.1 | Decentralized human-AI cooperative coordination network |
 | [Dejavue](https://github.com/nixpt/dejavue) | OCPL-1.1 + OCPL-Format + OCPL-Tool | Zero-ceremony repo-local agent memory for coding agents |
 
 ---

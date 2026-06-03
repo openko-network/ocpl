@@ -114,7 +114,7 @@ OCPL is probably **not** appropriate for:
 
 ## Projects Using OCPL
 
-- [OpenKO](https://github.com/nixpt/openko) — decentralized human-AI cooperative coordination network
+- [OpenKO](https://github.com/openko-network/openko) — decentralized human-AI cooperative coordination network
 - [Dejavue](https://github.com/nixpt/dejavue) — zero-ceremony repo-local agent memory (OCPL + OCPL-Format)
 
 → Add your project: open a PR adding to [ADOPTERS.md](ADOPTERS.md)
