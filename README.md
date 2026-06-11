@@ -24,10 +24,21 @@ In your `README.md`:
 Licensed under [OCPL v1.1](https://openko.network/ocpl)
 ```
 
-In `Cargo.toml` / `pyproject.toml` / `package.json`:
+In `Cargo.toml`, use `license-file` — `OCPL-1.1` is not (yet) an SPDX identifier,
+and crates.io rejects non-SPDX expressions in the `license` field:
 
 ```toml
-license = "OCPL-1.1"
+license-file = "LICENSE"
+```
+
+In `pyproject.toml` / `package.json`, where free-text license fields are accepted:
+
+```toml
+license = { file = "LICENSE" }   # pyproject.toml (PEP 621)
+```
+
+```json
+"license": "SEE LICENSE IN LICENSE"   // package.json (npm convention for custom licenses)
 ```
 
 For domain-specific projects, adopt an extension alongside the core:
