@@ -1,0 +1,15 @@
+:root {
+  --ocpl-void: #0A0A0F;
+  --ocpl-amber: #E8A020;
+  --ocpl-amber-dim: #C4841A;
+  --ocpl-fog: #9CA3AF;
+  --ocpl-paper: #F4F5F7;
+  --ocpl-border: #1E1E2E;
+  
+  --ocpl-open: #38bdf8;
+  --ocpl-open-dim: #0ea5e9;
+
+  --font-display: "Space Grotesk", "IBM Plex Sans", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", "Space Grotesk", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}

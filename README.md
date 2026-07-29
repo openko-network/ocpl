@@ -1,8 +1,11 @@
-# OpenKO Cooperative Protocol License (OCPL)
+<div align="center">
+  <img src="brand/horizontal.svg" width="560" alt="OCPL Wordmark">
+</div>
 
-**Canonical:** [openko.network/ocpl](https://openko.network/ocpl)
+<p align="center">
+  <b>Canonical:</b> <a href="https://openko.network/ocpl">openko.network/ocpl</a>
+</p>
 
-> Open protocols. Identity sovereignty. No lock-in.
 
 OCPL is a software license for projects that implement open coordination protocols — networks where participants cooperate around missions, share infrastructure, and govern themselves without central ownership. It is designed to protect three things that permissive licenses (MIT, Apache) do not protect: protocol openness, user identity sovereignty, and resistance to platform capture.
 
@@ -111,6 +114,22 @@ Their licenses apply to their code. OCPL applies to yours. See [COMPATIBILITY.md
 OCPL is appropriate for:
 
 - **Coordination protocol implementations** — software that runs decentralized mission/task/governance networks
+
+## Brand
+
+<img src="brand/mark.svg" width="96" alt="OCPL Mark">
+
+> Open + protected: a geometric open lock resting on the protocol baseline.
+
+| Asset | Path |
+|-------|------|
+| Mark | `brand/mark.svg` |
+| Favicon | `brand/favicon.svg` |
+| Wordmark | `brand/wordmark.svg` |
+| Horizontal | `brand/horizontal.svg` |
+| Tokens | `brand/tokens.css` |
+| Social Avatar | `brand/social/avatar.png` |
+| Social OG | `brand/social/og.png` |
 - **Federated infrastructure** — nodes that participate in shared networks with governance
 - **Ecosystem projects** — tools and services that participate in OpenKO's Foundry
 - **Agent infrastructure** — software that coordinates AI agents with DIDs and capability tokens
