@@ -2,6 +2,10 @@
 
 ---
 
+## [1.1.1] - 2026-07-29
+
+
+
 ## v1.1 — 2026-06-03 (Current)
 
 **Breaking from v1.0:** Projects using v1.0 should update to v1.1. The conditions are substantially the same; v1.1 fixes structural issues that made v1.0 problematic as a standalone legal instrument.
