@@ -2,6 +2,12 @@
 
 ---
 
+## [1.1.2] - 2026-07-29
+
+- Merge pull request #2 from openko-network/agent/antigravity/BRAND-1
+- brand: add initial brand assets
+
+
 ## [1.1.1] - 2026-07-29
 
 
