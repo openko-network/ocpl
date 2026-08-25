@@ -2,6 +2,11 @@
 
 ---
 
+## [1.1.3] - 2026-08-25
+
+- chore: gitignore .khukuri/ audit records
+
+
 ## [1.1.2] - 2026-07-29
 
 - Merge pull request #2 from openko-network/agent/antigravity/BRAND-1
