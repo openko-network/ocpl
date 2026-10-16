@@ -1,0 +1,52 @@
+@caison { version: "1.0" }
+
+schema: "milestones/1"
+
+project: {
+  name: "ocpl"
+  kind: "repo"
+  lifecycle: "shipped" ~0.8 @verified { at: "2026-10-16", by: "kai" }
+  home: "main"
+  ticket_prefix: "OCPL"
+  summary: "OpenKO Cooperative Protocol License: open protocol, identity sovereignty, no lock-in. OCPL v1.1 is the current text (2026-06-03), with Format/Model/Tool extensions, compatibility notes, adopters list and badges; repo releases v1.1.0-v1.1.3 (last 2026-08-25). REVIEW-AND-ROADMAP.md lists the hardening work toward the next license version"
+  north_star: "a license that keeps coordination protocols open and identities portable, usable by projects outside OpenKO"
+  stewards: ["foreman"]
+  stale_after_days: 90
+  evidence: {
+    default_branch: "main"
+  }
+}
+
+milestones: [
+  {
+    id: "v1.1"
+    title: "OCPL v1.1 published"
+    status: "done" @verified { at: "2026-10-16", by: "kai" }
+    done_when: [
+      "constitutional invariants embedded in the text (no external RFC reference)",
+      "protocol-openness, attribution and patent clauses fixed for standalone use",
+      "Format / Model / Tool extensions, COMPATIBILITY.md, FAQ.md, RATIONALE.md",
+      { claim: "a release is tagged", check: { kind: "tag", pattern: "v1.1.*" } },
+    ]
+  },
+  {
+    id: "adopters"
+    title: "adopters list current"
+    status: "active" ~0.5 @verified { at: "2026-10-16", by: "kai" }
+    done_when: [
+      "ADOPTERS.md lists every project that ships under OCPL",
+    ]
+    notes: "PR #1 (add zorro and cezanne, +2, open since 2026-06-13) never merged. The workspace's two-tier licensing (s261) puts protocol runtime crates under OCPL-1.1, so the list is likely longer than zorro and cezanne."
+  },
+  {
+    id: "v1.2"
+    title: "hardening toward the next license version"
+    status: "planned" @verified { at: "2026-10-16", by: "kai" }
+    done_when: [
+      "REVIEW-AND-ROADMAP.md gaps 1-10 resolved or explicitly declined: no-hidden-dependencies, formal 'open coordination protocol' definition, anti-embrace-extend-extinguish, enterprise-features boundary, identity-export guarantees, AI/agent portability, right to exit",
+      "RFC governance for the license text in place",
+      "protocol compliance profiles + reference test suites + badge criteria",
+    ]
+    notes: "a keyword check of LICENSE (2026-10-16) finds none of: no-hidden-dependencies, open coordination protocol, embrace/extinguish, enterprise, right to exit"
+  },
+]
